@@ -1,17 +1,15 @@
-import { Image } from "./image";
+import { Image } from './image';
 
-export const Gallery = (props) => {
+export const Silver = (props) => {
   return (
-    <div id="portfolio" className="text-center">
+    <div id="silver" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gold</h2>
+          <h2>SILVER</h2>
           <p>
-            Gold is one of the densest of all metals. It is a good conductor of
-            heat and electricity. It is also soft and the most malleable and
-            ductile of the elements; an ounce (28 grams) can be beaten out to
-            187 square feet (about 17 square metres) in extremely thin sheets
-            called gold leaf.
+            Silver is a chemical element with the symbol Ag (from the Latin
+            argentum, derived from the Proto-Indo-European h₂erǵ: "shiny" or
+            "white") and atomic number 47
           </p>
         </div>
         <div className="row">
@@ -35,4 +33,4 @@ export const Gallery = (props) => {
       </div>
     </div>
   );
-}
+};
